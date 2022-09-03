@@ -7,8 +7,9 @@ The script can be downloaded and set up using the commands below
 
 ```
 git clone https://github.com/wintltr/book-sagasu.git
+cd book-sagasu
 pip install -r requirements.txt
-cd book-sagasu/book_sagasu
+cd book_sagasu
 python book-sagasu.py -h
 ```
 
