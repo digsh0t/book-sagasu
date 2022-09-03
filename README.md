@@ -43,7 +43,7 @@ python book-sagasu.py -b "minh niệm" -t "azw3"
 Specify the output csv file name
 
 ```
-python book-sagasu.py -b "minh niệm" -t "azw3" -o "result"
+python book-sagasu.py -b "ocd" -t "epub" -o "result"
 ```
 ## Sample output result
 
