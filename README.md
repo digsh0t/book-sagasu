@@ -15,7 +15,7 @@ python book-sagasu.py -h
 
 # Running BS
 
-Use `python3 book-sagasu.py -h ` to see all the available parameters the script can take
+Use `python book-sagasu.py -h` to see all the available parameters the script can take
 
 ## Book Name
 
