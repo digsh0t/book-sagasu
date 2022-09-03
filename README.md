@@ -45,6 +45,9 @@ Specify the output csv file name
 ```
 python book-sagasu.py -b "minh niệm" -t "azw3" -o "result"
 ```
+## Sample output result
+
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/48349230/188273670-1c0de2f4-2dd8-4b4c-90b5-35ae42ab3a1e.png">
 
 # Ongoing problem
 Currently, the script sometimes take longer than usual to search for books, it may be due to sites hanging connection. Im trying my best to find the best time to stop the connection.
