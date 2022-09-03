@@ -15,7 +15,7 @@ class Book:
         self.extension = extension
         self.download_links = download_links
     
-    def convert_libgen_result_to_book_list(results: list[dict[str, Any]]):
+    def convert_libgen_result_to_book_list(results):
         return_list = []
         for result in results:
             s = LibgenSearch()

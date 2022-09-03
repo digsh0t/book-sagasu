@@ -42,7 +42,10 @@ def get_dtv_ebook_book_from_title(bookname: str, filetype: str):
         return None
     dtv_ebook_progess_bar.update(50)
     dtv_ebook_progess_bar.set_description("Get dtv_ebook book from detail page")
-    return_book_list = asyncio.run(get_dtv_ebook_book_detail_page(result,filetype))
+    #return_book_list = asyncio.run(get_dtv_ebook_book_detail_page(result,filetype))
+    loop = asyncio.get_event_loop()
+    return_book_list = loop.run_until_complete(get_dtv_ebook_book_detail_page(result,filetype))
+
     dtv_ebook_progess_bar.update(100)
     dtv_ebook_progess_bar.set_description("Get dtv_ebook book from detail page (done)")
     return return_book_list

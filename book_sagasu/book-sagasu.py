@@ -1,7 +1,7 @@
 import sys,getopt
 from tqdm import tqdm
-from sagasu_source.utils.write_to_csv import write_to_csv
 from sagasu_source.utils.run_in_parallel import runInParallel
+from sagasu_source.utils.write_to_csv import write_to_csv
 
 DEFAULT_OUTPUT_FILE_NAME='output'
 
@@ -12,11 +12,11 @@ def parse_args(argv):
     try:
         opts, _ = getopt.getopt(argv,"hb:t:o",["bookname=","filetype=", "output="])
     except getopt.GetoptError:
-        print("main.py -b <book name> -t <file type>")
+        print("book-sagasu.py -b <book name> -t <file type>")
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
-            print("main.py -b <book name> -t <file type> -o <output file>")
+            print("book-sagasu.py -b <book name> -t <file type> -o <output file>")
             sys.exit()
         elif opt in ("-b", "--bookname"):
             bookname = arg

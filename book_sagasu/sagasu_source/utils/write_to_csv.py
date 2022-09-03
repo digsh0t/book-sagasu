@@ -2,7 +2,7 @@ import csv
 
 from sagasu_source.book.book import Book
 
-def write_to_csv(output_filename: str, book_list: list[Book]):
+def write_to_csv(output_filename: str, book_list):
     data = []
     header = ['Book name', 'Author', 'Extension', 'Download links']
     for book in book_list:
