@@ -1,5 +1,5 @@
 # Book Sagasu
-A small program to find books and their download links from multiple book sources.
+A small program that use multi processing technique to find books and their download links from multiple book sources as fast as possible.
 
 # Search source
 Currently, the script support finding books on [libgen.is](https://libgen.is) and [dtv-ebook.com](https://www.dtv-ebook.com). More will be supported in the future.
