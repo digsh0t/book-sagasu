@@ -1,6 +1,9 @@
 # Book Sagasu
 A small program to find books and their download links from multiple book sources.
 
+# Search source
+Currently, the script support finding books on [libgen.is](https://libgen.is) and [dtv-ebook.com](https://www.dtv-ebook.com). More will be supported in the future.
+
 # Setting up
 
 The script can be downloaded and set up using the commands below
@@ -42,3 +45,6 @@ Specify the output csv file name
 ```
 python book-sagasu.py -b "minh niệm" -t "azw3" -o "result"
 ```
+
+# Ongoing problem
+Currently, the script sometimes take longer than usual to search for books, it may be due to sites hanging connection. Im trying my best to find the best time to stop the connection.
